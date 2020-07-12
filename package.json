@@ -1,5 +1,5 @@
 {
-  "name": "sample",
+  "name": "miau",
   "workspaces": [
     "packages/*"
   ],
@@ -11,8 +11,8 @@
     "test": "yarn test:unit",
     "test:unit": "mocha \"packages/**/test/**/*.spec.ts?(x)\"",
     "start": "yarn start:client",
-    "start:client": "yarn workspace @sample/app start",
-    "start:server": "yarn workspace @sample/server start",
+    "start:client": "yarn workspace @miau/app start",
+    "start:server": "yarn workspace @miau/server start",
     "typecheck": "tsc --noEmit",
     "prettify": "npx prettier \"./**/*.{js,ts,tsx}\" --write"
   },
