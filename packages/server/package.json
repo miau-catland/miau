@@ -8,18 +8,16 @@
     "prebuild": "yarn clean",
     "build": "ts-build ./src --cjs",
     "test": "mocha \"test/**/*.spec.ts?(x)\"",
-    "prestart": "yarn workspace @miau/app build:umd",
-    "start": "node -r @ts-tools/node/r -r tsconfig-paths/register ./src/server-main.ts",
+    "start": "DEBUG=* node -r @ts-tools/node/r -r tsconfig-paths/register ./src/index.ts",
     "prepack": "yarn build"
   },
-  "peerDependencies": {
-    "react": ">=16",
-    "react-dom": ">=16"
-  },
   "dependencies": {
-    "@miau/app": "^1.0.0",
     "compression": "^1.7.4",
-    "express": "^4.17.1"
+    "debug": "^4.1.1",
+    "express": "^4.17.1",
+    "inversify": "^5.0.1",
+    "mongoose": "^5.9.23",
+    "reflect-metadata": "^0.1.13"
   },
   "files": [
     "cjs",
