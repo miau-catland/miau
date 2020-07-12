@@ -1,5 +1,5 @@
 {
-  "name": "@sample/app",
+  "name": "@miau/app",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "types": "cjs/index.d.ts",
@@ -20,7 +20,7 @@
     "react-dom": ">=16"
   },
   "dependencies": {
-    "@sample/components": "^1.0.0",
+    "@miau/components": "^1.0.0",
     "sanitize.css": "^11.0.1"
   },
   "files": [
@@ -29,7 +29,7 @@
     "src"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample.git",
+  "repository": "git@github.com:miau-catland/miau.git",
   "private": true,
   "publishConfig": {
     "access": "public"

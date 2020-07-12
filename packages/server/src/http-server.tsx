@@ -3,9 +3,9 @@ import express from 'express';
 import compression from 'compression';
 import React from 'react';
 import ReactDOMServer from 'react-dom/server';
-import { App } from '@sample/app';
+import { App } from '@miau/app';
 
-const appRootDirectory = dirname(require.resolve('@sample/app/package.json'));
+const appRootDirectory = dirname(require.resolve('@miau/app/package.json'));
 const appBundleDirectory = join(appRootDirectory, 'umd');
 
 export function createHttpServer(): express.Express {

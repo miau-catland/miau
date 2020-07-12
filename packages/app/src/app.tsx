@@ -1,5 +1,5 @@
 import React from 'react';
-import { Main } from '@sample/components';
+import { Main } from '@miau/components';
 
 export interface AppProps {
   text: string;

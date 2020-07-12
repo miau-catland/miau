@@ -1,5 +1,5 @@
 {
-  "name": "@sample/components",
+  "name": "@miau/components",
   "version": "1.0.0",
   "main": "cjs/index.js",
   "module": "esm/index.js",
@@ -20,7 +20,7 @@
     "src"
   ],
   "license": "MIT",
-  "repository": "git@github.com:wixplosives/sample.git",
+  "repository": "git@github.com:miau-catland/miau.git",
   "sideEffects": false,
   "private": true,
   "publishConfig": {
