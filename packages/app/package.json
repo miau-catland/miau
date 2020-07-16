@@ -12,7 +12,7 @@
     "bundle:prod": "webpack --mode production",
     "bundle:dev": "webpack --mode development --devtool source-map",
     "test": "mocha \"test/**/*.spec.ts?(x)\"",
-    "start": "webpack-dev-server --mode development --progress --open",
+    "start": "webpack-dev-server --mode development --progress",
     "prepack": "yarn build"
   },
   "peerDependencies": {
@@ -21,7 +21,14 @@
   },
   "dependencies": {
     "@miau/components": "^1.0.0",
-    "sanitize.css": "^11.0.1"
+    "jquery": "^3.5.1",
+    "react-hot-loader": "^4.12.21",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-static": "^7.4.2",
+    "react-static-routes": "^1.0.0",
+    "sanitize.css": "^11.0.1",
+    "semantic-ui-react": "^0.88.2"
   },
   "files": [
     "cjs",
@@ -33,5 +40,8 @@
   "private": true,
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.5"
   }
 }

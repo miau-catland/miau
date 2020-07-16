@@ -1,0 +1,8 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+@primaryColor: #ef587b;
+@pageBackground: #eff0f1;
+
+@fontName : 'Barlow';
